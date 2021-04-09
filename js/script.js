@@ -12,8 +12,11 @@ for(var i=1; i < 101; i++) {
     }else{
         array100.push(i);
     }
+
+    document.getElementById("scala").innerHTML = array100[array100.length-1];
      
 }
+
 
 console.log(array100);
 
